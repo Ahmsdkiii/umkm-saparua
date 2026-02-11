@@ -19,16 +19,12 @@ export function createWhatsAppMessage(
     price: number;
   }>
 ): string {
-  let message = `*PESANAN BARU*\n\n`;
-  message += `*Informasi Pelanggan:*\n`;
-  message += `Nama: ${customerInfo.name}\n`;
-  message += `No. HP: ${customerInfo.phone}\n`;
-  message += `Alamat: ${customerInfo.address}\n\n`;
-  message += `*Pesanan dari ${umkmName}:*\n\n`;
+  let message = `Halo *${umkmName}*!\n\n`;
+  message += `Saya ingin memesan:\n\n`;
   
   let total = 0;
   items.forEach((item, index) => {
-    message += `${index + 1}. ${item.productName}\n`;
+    message += `${index + 1}. *${item.productName}*\n`;
     message += `   Jumlah: ${item.quantity}\n`;
     
     if (item.options) {
@@ -39,11 +35,15 @@ export function createWhatsAppMessage(
     
     const subtotal = item.price * item.quantity;
     total += subtotal;
-    message += `   Subtotal: ${formatPrice(subtotal)}\n\n`;
+    message += `   Harga: ${formatPrice(subtotal)}\n\n`;
   });
   
-  message += `*Total Pembayaran: ${formatPrice(total)}*\n\n`;
-  message += 'Terima kasih telah memesan!';
+  message += `*Total: ${formatPrice(total)}*\n\n`;
+  message += `*Detail Pengiriman:*\n`;
+  message += `Nama: ${customerInfo.name}\n`;
+  message += `No. HP: ${customerInfo.phone}\n`;
+  message += `Alamat: ${customerInfo.address}\n\n`;
+  message += 'Mohon konfirmasi ketersediaan produk. Terima kasih!';
   
   return encodeURIComponent(message);
 }
