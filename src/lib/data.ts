@@ -10,7 +10,7 @@ export const umkmData: UMKM[] = [
     shortDescription: 'Menyediakan berbagai makanan tradisional dengan cita rasa autentik',
     fullDescription: 'Warung Bu Siti telah berdiri sejak 2015 dan menjadi favorit warga desa. Kami menyediakan berbagai makanan tradisional yang dibuat dengan resep turun temurun dan bahan-bahan pilihan.',
     image: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800',
-    whatsapp: '6281234567890',
+    whatsapp: '6281462251984',
     products: [
       {
         id: 'p1',
@@ -59,7 +59,7 @@ export const umkmData: UMKM[] = [
     shortDescription: 'Produk kerajinan tangan dari bamboo berkualitas tinggi',
     fullDescription: 'Kami adalah pengrajin bamboo yang telah berpengalaman lebih dari 10 tahun. Setiap produk dibuat dengan teliti dan mengutamakan kualitas serta keindahan desain.',
     image: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800',
-    whatsapp: '6281234567891',
+    whatsapp: '6281462251984',
     products: [
       {
         id: 'p4',
@@ -91,7 +91,7 @@ export const umkmData: UMKM[] = [
     shortDescription: 'Aneka kue basah dan kering untuk berbagai acara',
     fullDescription: 'Toko Kue Ibu Ani menyediakan berbagai macam kue tradisional dan modern. Semua kue dibuat fresh setiap hari dengan bahan berkualitas tanpa pengawet.',
     image: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800',
-    whatsapp: '6281234567892',
+    whatsapp: '6281462251984',
     products: [
       {
         id: 'p6',
@@ -130,7 +130,7 @@ export const umkmData: UMKM[] = [
     shortDescription: 'Jasa sablon kaos, tote bag, dan merchandise',
     fullDescription: 'Sablon Pak Joko melayani sablon untuk berbagai kebutuhan dengan kualitas terbaik dan harga terjangkau. Kami menggunakan teknik sablon manual dan digital printing.',
     image: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800',
-    whatsapp: '6281234567893',
+    whatsapp: '6281462251984',
     products: [
       {
         id: 'p9',
@@ -166,7 +166,7 @@ export const umkmData: UMKM[] = [
     shortDescription: 'Penjual tanaman hias dan tanaman buah dalam pot',
     fullDescription: 'Kami menyediakan berbagai jenis tanaman hias indoor dan outdoor serta tanaman buah dalam pot. Semua tanaman dirawat dengan baik dan siap menghiasi rumah Anda.',
     image: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800',
-    whatsapp: '6281234567894',
+    whatsapp: '6281462251984',
     products: [
       {
         id: 'p11',
@@ -205,7 +205,7 @@ export const umkmData: UMKM[] = [
     shortDescription: 'Madu murni hasil ternak lebah lokal',
     fullDescription: 'Madu Alami Bu Rina adalah madu murni 100% tanpa campuran yang dihasilkan dari ternak lebah di area perkebunan desa. Kualitas terjamin dan telah tersertifikasi.',
     image: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800',
-    whatsapp: '6281234567895',
+    whatsapp: '6281462251984',
     products: [
       {
         id: 'p14',

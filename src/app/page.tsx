@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { umkmData } from '@/lib/data';
 import UmkmCard from '@/components/UmkmCard';
 import Button from '@/components/Button';
+import FAQ from '@/components/FAQ';
 
 export default function HomePage() {
   const featuredUmkm = umkmData.slice(0, 3);
@@ -165,6 +166,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <FAQ />
     </div>
   );
 }
